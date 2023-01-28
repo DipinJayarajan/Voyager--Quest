@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primary-dark: #5651e5;
+    --secondary-light: #709dff;
+}
+
+@layer base {
+    html {
+        @apply scroll-smooth
+    }
+
+    body {
+        @apply font-serif ;
+    }
+
+    li {
+        @apply p-4 text-sm;
+    }
+
+    button {
+        @apply  px-5 py-2.5 font-medium bg-blue-50 hover:bg-blue-100 hover:text-blue-600 text-blue-500 rounded-lg text-sm;
+        
+        
+    }
+
+    h2 {
+        @apply text-xl font-bold ;
+    }
+}
+
